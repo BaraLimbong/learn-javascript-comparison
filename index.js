@@ -1,8 +1,9 @@
 const food = 'burger'
+
 if (food === 'burger') {
-  console.log('when you feel starving')
-} else if ('noodle') {
-  console.log('not yet hungry')
+  console.log('you are starving')
+} else if (food === 'noodle') {
+  console.log('you are not so hungry')
 } else {
   console.log('every food is for all human mankind')
 }
@@ -17,9 +18,10 @@ console.log('--------------')
 const cars = 'ferarri' || 'avanza'
 console.log(cars)
 
-const age = 80
+const age = 60
 const car = 'innova'
 const gender = 'male'
+
 if (gender === 'male' && age >= 50 && car === 'innova') {
   console.log('welcome brother')
 } else if (age >= 50 && car === 'innova') {
@@ -36,12 +38,15 @@ const coach = 'bara'
 if (school === 'impactbyte' || coach === 'bara') {
   console.log('welcome to BARATECH CORP')
 } else {
-  console.log('im sorry, try to others corp,see you!')
+  console.log('im sorry, try to others corp, see you!')
 }
-function comparison(inggris, indonesia) {
-  if (inggris > indonesia) {
-    console.log('true')
-  } else if (indonesia > amerika) {
-    console.log('false')
+
+function comparison(number1, number2) {
+  if (number1 > number2) {
+    console.log('number1 is larger than number2')
+  } else if (number2 > number1) {
+    console.log('number2 is larger than number1')
   }
 }
+
+comparison(1, 2)

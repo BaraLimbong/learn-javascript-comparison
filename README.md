@@ -1,3 +1,3 @@
-# JAVASCRIPTCOMPARISON
+# JAVASCRIPT COMPARISON
 
-## Javascriptcomparisonpractice
+JavaScript comparison practice.
